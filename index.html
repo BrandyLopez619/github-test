@@ -1,0 +1,32 @@
+<!--Basic file info-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Basic Document Setup</title>
+    <script type="text/javascript" src="javascript_setup.js"></script> <!--reference js file-->
+    <link rel="stylesheet" type="text/css" href="css_setup.css" media=”screen” /> <!--reference css file and select desired media type (all,screen,print(f12 for preview))-->
+    <style></style>
+
+</head>
+<body>  <!--<body onload="startFunction()"> -->
+
+    <button type="button" onclick="runFunction()">Click Me!</button> <!-- basic button to run function -->
+
+    <img src="smile.png" alt="img not found" /> <!-- import image, if fail, display alt -->
+
+    <form action="https://us-central.cloudfunctions.sample-host-site" method="post"> <!-- HTTP method POST to server-->
+
+    <h1>Highest level heading (h1-h6)</h1>
+    <p>Structured paragraph</p>
+    <ol>  <!-- organized list -->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <button type="button" onclick="rollDice()">Roll Dice!</button>
+
+</body>
+</html>
